@@ -102,8 +102,8 @@ let userMobile =document.getElementById("mob");
 
 function mobileValid(){
     if(userMobile.value == ""){
-        alert("Please fill Mobile Number");
-        return false;
+        
+        return true;
     }
     else if(userMobile.value.length != 10){
         alert("Please enter 10 digit mobile number");
