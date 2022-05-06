@@ -154,11 +154,10 @@ function getLocalData(){
     let data3= document.createTextNode(localStorage.getItem("Mobile"));
     col3.append(data3);
     rowEntry.append(col3);
-
-
-
-    
     mainTable.append(rowEntry);
+
+    document.getElementById("reForm").reset();
+
 }
 
 
