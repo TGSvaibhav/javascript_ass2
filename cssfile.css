@@ -1,0 +1,21 @@
+.main-div{
+border-style: inset;
+border-width: 5px;
+border-color: rgb(180, 174, 174);
+background-color: rgba(245, 167, 167, 0.612);
+}
+#tableMain{
+    border-style:inset ;
+    border-width:5px;
+    border-color: rgb(180, 174, 174);
+    background-color: rgba(245, 167, 167, 0.612);
+}
+body{
+    background-color: rgba(168, 164, 164, 0.365);
+}
+.headingText{
+color: rgb(155, 44, 57);
+}
+.buttonc {
+    background-color: rgba(240, 136, 136, 0.612);
+}
